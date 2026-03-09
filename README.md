@@ -24,3 +24,15 @@ This project helped demonstrate how these systems work at a basic level by using
    - Green rectangles are drawn around each detected face.
    - The number of detected faces is displayed in the window.
 5. The video feed is displayed in a PySimpleGUI window.
+
+
+# Installation and Setup
+1. Clone the repository
+   - git clone https://github.com/yourusername/face-detector.git
+   - cd face-detector
+2. Install Required Libraries
+   - pip install opencv-python
+   - pip install pysimplegui
+   - * If pysimplegui fails to install you can install it directly from GitHub: pip install PySimpleGUI
+3. Run the Program
+   - python face_detector.py
